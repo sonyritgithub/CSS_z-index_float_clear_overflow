@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .firstbox{
+            position:relative;
+            height: 250px;
+            background-color: blanchedalmond;
+            text-align: center;
+            z-index:-1;
+        }
+        .secondbox{
+            position:absolute;
+            height:100px;
+            width:100px;
+            background-color: cadetblue;
+            text-align: center;
+            left:0px;
+            top:0px;
+            z-index:2;
+            
+        }
+        .thirdbox{
+            position:absolute;
+            top:20px;
+            left:20px;
+            height:100px;
+            width:100px;
+            background-color:chartreuse;
+            text-align: center;
+            z-index:3;
+        }
+        .fourthBox{
+            position:absolute;
+            top:40px;
+            left:40px;
+            height:100px;
+            width:100px;
+            background-color:deepskyblue;
+            text-align: center;
+            z-index:5;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="firstbox">BOX1
+        <div class="secondbox">BOX2</div>
+        <div class="thirdbox">BOX3</div>
+        <div class="fourthBox">Box4</div>
+    </div>
+    
+</body>
+</html>
